@@ -1,0 +1,20 @@
+{
+  "name": "mern-learning",
+  "version": "1.0.0",
+  "description": "short links by Vladimir Steshenko",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node"
+  ],
+  "author": "Vladimir Steshenko <stesh@ukr.net>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
+  }
+}
