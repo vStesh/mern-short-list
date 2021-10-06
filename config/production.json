@@ -1,0 +1,11 @@
+{
+  "server": {
+    "port": 5000
+  },
+  "mongoUri": "mongodb+srv://mern:wsxzaq12@cluster0.91dpn.mongodb.net/app?retryWrites=true&w=majority",
+  "validate": {
+    "minLengthPassword": 6
+  },
+  "jwtSecret": "skd askdj gkHHFDFJLKjijjj",
+  "baseUrl": "http://localhost:5000"
+}
