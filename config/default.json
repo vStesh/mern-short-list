@@ -6,5 +6,6 @@
   "validate": {
     "minLengthPassword": 6
   },
-  "jwtSecret": "skd askdj gkHHFDFJLKjijjj"
+  "jwtSecret": "skd askdj gkHHFDFJLKjijjj",
+  "baseUrl": "http://localhost:5000"
 }

@@ -8,18 +8,20 @@ const config = require('config');
 
 const MIN_LENGTH_PASSWORD = config.get('validate.minLengthPassword') || 6;
 
+
 // /api/auth/register
 router.post(
     '/register',
     [
-        check('email', 'Некорректный email').isEmail,
+        check('email', 'Некорректный email').isEmail(),
         check('password', `Минимальная длинна пароля ${MIN_LENGTH_PASSWORD} символов`)
             .isLength({min: MIN_LENGTH_PASSWORD})
     ],
     async (req, res) => {
+        console.log(req.body);
     try {
         const errors = validationResult(req);
-
+        console.log(errors);
         if(!errors.isEmpty()) {
             return res.status(400).json({
                 errors: errors.array(),
