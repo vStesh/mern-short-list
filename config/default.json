@@ -7,5 +7,5 @@
     "minLengthPassword": 6
   },
   "jwtSecret": "skd askdj gkHHFDFJLKjijjj",
-  "baseUrl": "http://localhost:5000"
+  "baseUrl": "http://seee.site"
 }
